@@ -20,15 +20,13 @@ namespace Slot_Machine_v3
 
         double saldo = 0, aposta = 0;
 
-        string saldo_inicial;
-
         private void button4_Click(object sender, EventArgs e)
         {
             
             double morecoins;
 
             try
-            {
+            { 
                 morecoins = Convert.ToDouble(Microsoft.VisualBasic.Interaction.InputBox("Quanto deseja acrescentar?"));
 
                 if (morecoins > 5000)
